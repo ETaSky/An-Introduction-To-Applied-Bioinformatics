@@ -170,7 +170,7 @@ Let's load up some aligned sequences, and compute a distance matrix. For now, we
 
 Once we have these distances, we can cluster the sequences based on their similiaries/dissimilarities. This is the first process that we'll explore for tree building.
 
-**NOTE:** The example below assumes that each value in this distance matrix is multiplied by the sequence length, so we'll do that here and work work with the resulting distance matrix.
+**NOTE:** The example below assumes that each value in this distance matrix is multiplied by the sequence length, so we'll do that here and work with the resulting distance matrix.
 
 ```python
 >>> master_dm = DistanceMatrix(master_dm.data*16, master_dm.ids)
